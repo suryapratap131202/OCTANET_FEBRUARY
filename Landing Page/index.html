@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="sec">
+        <header>
+            <a href="#"><img src="G-Shock-logo.png" class="logo"></a>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Offers</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </header>
+        <div class="content">
+            <div class="textBox">
+                <h2>Rise Above <br><span>The Shocks</span></h2>
+                <p>The dials are finished in unified tones of ice blue and sage green. Varying shades of the same color
+                    and different material qualities are used for each individual part, highlighting the form of the
+                    mechanical dial and giving it a stylish touch.
+                </p><br>
+                <p class="price">Price: ₹ 11,499/- Only</p>
+                <p class="deal">The Deal Ends in <span id="demo"></span> </p>
+                <a href="#">View All Products</a>
+            </div>
+            <div class="imgBox">
+                <img src="G-Shock-yellow.png" class="gshock">
+            </div>
+        </div>
+        <ul class="thumb">
+            <li><img src="G-Shock-red.png" onclick="imgSlider('G-Shock-red.png'); changeBgColor('#FF7F7F ')"></li>
+            <li><img src="G-Shock-yellow.png" onclick="imgSlider('G-Shock-yellow.png'); changeBgColor('#fef65b')"></li>
+            <li><img src="G-Shock-orange.png" onclick="imgSlider('G-Shock-orange.png'); changeBgColor('#FFD580')"></li>
+        </ul>
+        <ul class="social">
+            <li><a href="#"><img src="facebook.png"></a></li>
+            <li><a href="#"><img src="instagram.png"></a></li>
+            <li><a href="#"><img src="twitter.png"></a></li>
+        </ul>
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>
